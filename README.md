@@ -1,57 +1,60 @@
-RISC-V VDAT SoC Tapeout Program
-Overview
-This repository holds files, documentation, and progress updates for the RISC-V VDAT SoC Tapeout Program, a practical initiative for designing RISC-V-based System-on-Chip (SoC) architectures. The program guides participants through the design process from RTL to GDSII using open-source tools.
-About the Program
-The VDAT SoC Tapeout Program is a collaborative effort to strengthen India's semiconductor ecosystem. It offers hands-on experience in chip design, equipping participants with skills for industry-relevant RISC-V solutions.
-Program Progress
-Week 0: Environment Setup
-Objective: Set up development tools and understand their usage.
-Completed Tasks:
+# RISC-V VDAT SoC Tapeout Program
 
-✅ Configured development environment
-Installed Iverilog for Verilog simulation
-Set up Yosys for synthesis
-Installed gtkWave for waveform analysis
-Tested tools with sample cases
+This repository contains files, documentation, and progress updates for the **RISC-V VDAT SoC Tapeout Program**, a hands-on initiative for designing **RISC-V-based System-on-Chip (SoC) architectures**. The program guides participants through the complete design flow from **RTL to GDSII** using **open-source tools**.
 
-Key Takeaways:
+---
 
-Learned installation and use of open-source EDA tools
-Gained insight into the RTL-to-GDSII design flow
+## About the Program
 
-Progress Summary
+The **VDAT SoC Tapeout Program** is a collaborative effort aimed at strengthening India's semiconductor ecosystem. It provides participants with **practical chip design experience**, equipping them with skills to develop **industry-relevant RISC-V solutions**.
 
+---
 
+## Program Progress
 
-Week
-Phase
-Status
+### Week 0: Environment Setup
 
+**Objective:** Set up development tools and understand their usage.
 
+**Completed Tasks:**
+- ✅ Configured development environment
+- ✅ Installed **Iverilog** for Verilog simulation
+- ✅ Set up **Yosys** for synthesis
+- ✅ Installed **gtkWave** for waveform analysis
+- ✅ Tested tools with sample cases
 
-Week 0
-Tool Setup
-✅ Completed
+**Key Takeaways:**
+- Learned installation and use of open-source EDA tools
+- Gained insight into the **RTL-to-GDSII** design flow
 
+---
 
-Tools & Technologies
+### Progress Summary
 
-Simulation: Iverilog
-Synthesis: Yosys
-Waveform Viewer: gtkWave
-Design Flow: RTL to GDSII
-Architecture: RISC-V SoC
+| Week   | Phase       | Status       |
+|--------|------------|-------------|
+| Week 0 | Tool Setup | ✅ Completed |
 
-Acknowledgments
-Thanks to:
+---
 
-Kunal Ghosh and the VLSI System Design (VSD) team for organizing this program
-RISC-V International for their resources and support
-Contributors driving India’s semiconductor advancements
+## Tools & Technologies
 
-Repository Structure
-.
-├── Week-0/
-│   ├── images/
-│   └── week0_report.md
-├── README.md
+- **Simulation:** Iverilog  
+- **Synthesis:** Yosys  
+- **Waveform Viewer:** gtkWave  
+- **Design Flow:** RTL to GDSII  
+- **Architecture:** RISC-V SoC  
+
+---
+
+## Acknowledgments
+
+Thanks to:  
+- **Kunal Ghosh** and the **VLSI System Design (VSD) team** for organizing this program  
+- **RISC-V International** for their resources and support  
+- All contributors driving **India’s semiconductor advancements**  
+
+---
+
+## Repository Structure
+
