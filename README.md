@@ -58,3 +58,13 @@ Thanks to:
 
 ## Repository Structure
 
+.
+├── Week-0/
+│ ├── images/
+│ └── week0_report.md
+├── README.md
+
+---
+
+
+
