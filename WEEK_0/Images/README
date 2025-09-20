@@ -1,1 +1,69 @@
+# RISC-V Reference SoC Tapeout Program VSD
 
+
+
+## Tool Check
+
+### Install Commands:
+```bash
+# Update system
+$ sudo apt update
+$ sudo apt upgrade -y
+
+# Install essential packages  
+$ sudo apt install git curl python3 python3-pip build-essential
+$ sudo apt install tcl-dev tk-dev libcairo2-dev libgsl-dev
+$ sudo apt install autoconf flex bison libreadline-dev libffi-dev
+$ python3 -m pip install --upgrade pip
+
+# Clone repository
+$ git clone <repository-url>
+$ cd risc-v-soc-tapeout
+
+# Execute setup
+$ chmod +x setup.sh  
+$ ./setup.sh
+
+
+
+Tool Installation:
+Step 1: Installing Yosys
+bash$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ make config-gcc  
+$ make -j$(nproc)
+$ sudo make install
+Step 2: Installing IVerilog
+bash$ sudo apt install iverilog
+$ which iverilog
+/usr/bin/iverilog
+Step 3: Installing GTKWave
+bash$ sudo apt install gtkwave
+$ which gtkwave
+/usr/bin/gtkwave
+Step 4: Installing Magic
+bash$ git clone https://github.com/RTimothyEdwards/magic.git
+$ cd magic
+$ ./configure
+$ make -j$(nproc) 
+$ sudo make install
+Step 5: Installing OpenSTA
+bash$ git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+$ cd OpenSTA
+$ mkdir build && cd build
+$ cmake ..
+$ make -j$(nproc)
+$ sudo make install
+Step 6: Installing Netgen
+bash$ git clone https://github.com/RTimothyEdwards/netgen.git  
+$ cd netgen
+$ ./configure
+$ make -j$(nproc)
+$ sudo make install
+Step 7: Installing OpenROAD
+bash$ git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
+$ cd OpenROAD
+$ ./etc/DependencyInstaller.sh
+$ mkdir build && cd build  
+$ cmake ..
+$ make -j$(nproc)
